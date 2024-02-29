@@ -1,0 +1,42 @@
+::after ::before * {
+  width: 100%;
+}
+.btn-outline-success {
+  background-color: #ec4d37;
+  color: white;
+}
+.nav-link :hover {
+  color: #000000;
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    width: 70%;
+    height: 100%;
+    background-color: #85ec37;
+    z-index: 1030;
+  }
+
+  .navbar-collapse {
+    right: 0;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    margin-bottom: 1rem;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 1rem 0;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+}
